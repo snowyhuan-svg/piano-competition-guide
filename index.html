@@ -158,9 +158,10 @@
     border-collapse: collapse;
     background: #fff;
     font-size: 0.85rem;
+    line-height: 1.25;
   }
   table.deadlines th, table.deadlines td {
-    padding: 8px 14px;
+    padding: 6px 10px;
     border-bottom: 1px solid #eee2c9;
     text-align: left;
     vertical-align: middle;
@@ -185,6 +186,19 @@
     border-radius: 4px;
     font-size: 0.78rem;
     font-weight: bold;
+    white-space: nowrap;
+  }
+  @media (max-width: 600px) {
+    table.deadlines {
+      font-size: 0.72rem;
+    }
+    table.deadlines th, table.deadlines td {
+      padding: 5px 6px;
+    }
+    .status {
+      padding: 1px 5px;
+      font-size: 0.68rem;
+    }
   }
   .status.upcoming { background: #e3f3e6; color: #237a3e; }
   .status.passed { background: #f3e3e3; color: #a13a3a; }
@@ -241,7 +255,7 @@
       <thead>
         <tr>
           <th data-sort="text">Competition</th>
-          <th data-sort="date">Application Deadline</th>
+          <th data-sort="date">Deadline</th>
           <th data-sort="text">Status</th>
         </tr>
       </thead>
