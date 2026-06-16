@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABRSM Piano Repertoire 2025 &amp; 2026 — Piano Competitions Guide</title>
+<style>
+  :root {
+    --navy: #1c2541;
+    --gold: #c9a227;
+    --cream: #faf6ed;
+    --gray: #5c6178;
+    --red: #c8102e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body { font-family: 'Georgia', 'Times New Roman', serif; background: var(--cream); color: var(--navy); line-height: 1.6; }
+
+  header {
+    background: linear-gradient(135deg, #8b0000, var(--red));
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  header h1 { font-size: 2.1rem; margin-bottom: 10px; letter-spacing: 1px; }
+  header p { color: #ffd5db; font-size: 1rem; font-style: italic; }
+
+  nav {
+    background: var(--navy);
+    padding: 12px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+    display: inline-block;
+  }
+  nav a:hover { border-color: var(--gold); }
+
+  main { max-width: 860px; margin: 0 auto; padding: 36px 20px; }
+
+  .intro { text-align: center; margin-bottom: 24px; color: var(--gray); font-size: 0.95rem; }
+
+  .note {
+    background: #fdf3e0;
+    border: 1px solid #f0dca0;
+    border-left: 5px solid var(--gold);
+    border-radius: 4px;
+    padding: 14px 18px;
+    margin-bottom: 28px;
+    font-size: 0.87rem;
+    color: var(--navy);
+  }
+  .note a { color: var(--red); }
+
+  /* Grade tabs */
+  .grade-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 28px;
+  }
+  .grade-tab {
+    padding: 7px 14px;
+    border: 2px solid var(--navy);
+    border-radius: 4px;
+    background: transparent;
+    color: var(--navy);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.88rem;
+    font-weight: bold;
+    transition: all 0.18s;
+  }
+  .grade-tab:hover { background: #e6e9f5; }
+  .grade-tab.active { background: var(--red); border-color: var(--red); color: #fff; }
+
+  /* Grade panel */
+  .grade-panel { display: none; }
+  .grade-panel.active { display: block; }
+
+  .grade-heading {
+    font-size: 1.35rem;
+    color: var(--red);
+    border-bottom: 2px solid var(--red);
+    padding-bottom: 7px;
+    margin-bottom: 18px;
+  }
+
+  .lists-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  @media (max-width: 680px) {
+    .lists-grid { grid-template-columns: 1fr; }
+  }
+
+  .list-card {
+    background: #fff;
+    border: 1px solid #e6ddc6;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  .list-header {
+    background: var(--navy);
+    color: #fff;
+    padding: 10px 14px;
+  }
+  .list-header strong { font-size: 1rem; }
+  .list-header span {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--gold);
+    margin-top: 2px;
+    font-style: italic;
+  }
+  .list-body { padding: 10px 14px; }
+
+  .official-note {
+    font-size: 0.76rem;
+    color: var(--red);
+    font-style: italic;
+    border-bottom: 1px dashed #e6ddc6;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    line-height: 1.3;
+  }
+
+  .piece {
+    padding: 5px 0;
+    border-bottom: 1px solid #f0e8d6;
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+  .piece:last-child { border-bottom: none; }
+  .composer { font-weight: bold; color: var(--navy); }
+  .piece-title { color: var(--gray); }
+
+  footer {
+    text-align: center;
+    padding: 28px 20px;
+    color: var(--gray);
+    font-size: 0.85rem;
+    border-top: 1px solid #e6ddc6;
+    margin-top: 40px;
+  }
+  footer p { margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ABRSM Piano Repertoire</h1>
+  <p>Practical Grades — Syllabus 2025 &amp; 2026</p>
+</header>
+
+<nav>
+  <a href="index.html">← Competitions Guide</a>
+  <a href="masterclass-inquiry.html">Masterclass Inquiry</a>
+  <a href="abrsm.html">ABRSM Repertoire</a>
+</nav>
+
+<main>
+  <p class="intro">
+    Piano syllabus valid 1 January 2025 – 31 December 2026 · Initial Grade and Grades 1–8
+  </p>
+
+  <div class="note">
+    <strong>About this list:</strong> Each grade has three lists (A · B · C). Candidates choose one piece from each list for the exam.
+    Pieces 1–3 in every list are published in the official <em>ABRSM Piano Exam Pieces 2025 &amp; 2026</em> books
+    (available from <a href="https://shop.abrsm.org" target="_blank">shop.abrsm.org</a>).
+    This page shows the additional alternative pieces from the full syllabus.
+    Always verify the complete list on the <a href="https://www.abrsm.org/en-us/about-our-exams/syllabuses" target="_blank">official ABRSM syllabus page</a>.
+  </div>
+
+  <div class="grade-tabs" id="gradeTabs">
+    <button class="grade-tab active" data-grade="initial">Initial</button>
+    <button class="grade-tab" data-grade="g1">Grade 1</button>
+    <button class="grade-tab" data-grade="g2">Grade 2</button>
+    <button class="grade-tab" data-grade="g3">Grade 3</button>
+    <button class="grade-tab" data-grade="g4">Grade 4</button>
+    <button class="grade-tab" data-grade="g5">Grade 5</button>
+    <button class="grade-tab" data-grade="g6">Grade 6</button>
+    <button class="grade-tab" data-grade="g7">Grade 7</button>
+    <button class="grade-tab" data-grade="g8">Grade 8</button>
+  </div>
+
+  <div id="gradePanels"></div>
+</main>
+
+<footer>
+  Repertoire sourced from the ABRSM Practical Music Grades Piano Syllabus 2025 &amp; 2026.
+  <p>&copy; 2026 Huan Zhang. All rights reserved.</p>
+</footer>
+
+<script>
+const repertoire = {
+  initial: {
+    label: 'Initial Grade',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['Berryman, Buckland, Champion &amp; Martin', 'Clocks, arr. Dunlop'],
+        ['W. Carroll', 'Raindrops (No. 4 from The Countryside)'],
+        ['Diabelli', 'Alla turca, Op. 149 No. 26, arr. Kern'],
+        ['Diabelli', 'Scherzo (primo part)'],
+        ['Gurlitt', 'Dance (No. 2 from Das kleines Konzert, Op. 227)'],
+        ['Humbert', 'The Black Forest Doll (No. 3 from Allerlei Spielzeug)'],
+        ['Kabalevsky', 'A Little Scherzo (No. 6 from 24 Little Pieces, Op. 39)'],
+        ['Maxner', 'Zonko\'s Big Adventure (primo part)'],
+        ['A. Reinagle', 'Allegretto (No. 9 from 24 Short and Easy Pieces, Op. 1)'],
+        ['B. Schattel', 'Racing Against Each Other (No. 12 from Rosalie and Finn) primo part'],
+        ['Trad. Irish', 'John Ryan\'s Polka, arr. Blackwell'],
+        ['P. Wedgwood', 'Mission Impossible (No. 11 from Up-Grade! Piano Grades 0–1)'],
+        ['E. Wells', 'Donkey Ride (from Sea Pictures, Set 1) primo part'],
+      ]
+    },
+    B: {
+      style: 'Lyrical &amp; Expressive',
+      pieces: [
+        ['Agay', 'Moonlit Pagoda'],
+        ['J. Armstrong', 'Butterfly (primo part)'],
+        ['L. Chamberlain', 'The Sad Little Pig'],
+        ['P. Hall', 'The Secret Garden'],
+        ['A. Haughton', 'Budgie'],
+        ['K. Marshall', 'Sprinkling Stardust'],
+        ['A. Mathews', 'Sailing Under a Moonlit Sky'],
+        ['C. Norton', 'Enchanted Castle (primo part)'],
+        ['Orff', 'No. 1 (from Two Pieces)'],
+        ['P. Peskett', 'A Dream on the Prairie'],
+        ['Satie', 'What the Little Princess Tulip Says (No. 2 from Menus propos enfantins)'],
+        ['Trad. Chinese', 'Crescent Moon, arr. N. &amp; R. Faber (student part)'],
+        ['P. Wedgwood', 'Whirleybird (No. 2 from Up-Grade! Piano Grades 0–1)'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['Barnett, Laslett Pott &amp; Gibson', 'Shotgun, arr. Thomson'],
+        ['Withers', 'Lean on Me, arr. Önaç'],
+        ['P. Hall &amp; P. Drayton', 'Stegosaurus Stomp (from Prehistoric Piano Time)'],
+        ['H. Hammond', 'Action Stations'],
+        ['M. Tanner', 'Wonkey Donkey'],
+        ['A. Haughton', 'Treading Carefully'],
+        ['H-G. Heumann', 'Piano Junior Blues'],
+        ['Elton John', 'I Just Can\'t Wait to Be King (from The Lion King), arr. N. &amp; R. Faber (student part)'],
+        ['C. Klose', 'Those Creepy Crawly Things on the Cellar Floor'],
+        ['J. Knerr', 'Detective Wombat Blues'],
+        ['M. Last', 'Ducks in the Pond'],
+        ['G. Martin', 'Boogie No. 1'],
+        ['J. Sebba', 'The Grand Waltz (primo part)'],
+      ]
+    }
+  },
+
+  g1: {
+    label: 'Grade 1',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['D. Alexander', 'Sonatina primo part'],
+        ['attrib. J. S. Bach', 'Choral \'Deal with Me, Lord\', BWV 514'],
+        ['A. Bullard', 'Climbing High'],
+        ['Gurlitt', 'The Chase / The Hunt (No. 15 from First Lessons, Op. 117)'],
+        ['Handel', 'Gavotte in C (ornaments optional)'],
+        ['M. Helyer', 'Haymaking (from The Greenwood Tree)'],
+        ['Hook', 'Gavotte in C (No. 3 from 24 Progressive Lessons, Op. 81)'],
+        ['L. Mozart', 'Minuet in F (No. 6 from Nannerl-Notenbuch)'],
+        ['Mozart', 'Allegro (No. 8 from 12 Duos, K. 487), arr. Blackwell'],
+        ['Purcell', 'Minuet in A minor, Z. 649'],
+        ['T. Richert', 'Comical Cat (from Copycat Copycat)'],
+        ['Türk', 'Arioso in F (No. 1 from 12 Handstücke)'],
+        ['E. Wells', 'Courante primo part'],
+      ]
+    },
+    B: {
+      style: 'Romantic &amp; 20th Century',
+      pieces: [
+        ['D. Alexander', 'Reflections (from Just for You and Me, Book 1) primo part'],
+        ['Alwyn', 'The Trees are Heavy with Snow'],
+        ['R. R. Bennett', 'Friday (from Seven Days a Week)'],
+        ['J. Blake', 'The Little White Cloud'],
+        ['Grechaninov', 'Fairy Tale (No. 1 from Children\'s Album, Op. 98)'],
+        ['A. Lasko', 'Fountain (from Little Stories)'],
+        ['Lennon', 'Imagine, arr. Önaç'],
+        ['H. Madden', 'The Forgotten Forest primo part'],
+        ['A. Menken', 'Beauty and the Beast, arr. Hussey'],
+        ['V. Proudler', 'Silver Lining'],
+        ['Siegmeister', 'Song of the Dark Woods'],
+        ['Spindler', 'Song without Words'],
+        ['B. Taneva', 'Small Valse'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['Anderson-Lopez &amp; Lopez', 'Let It Go (from Frozen), arr. Thomson'],
+        ['Timberlake, Martin &amp; Shellback', 'Can\'t Stop the Feeling!, arr. Harnett'],
+        ['J. Armstrong', 'Sunlight Through the Trees'],
+        ['C. Barratt', 'Cheesecake-Walk (from Get It Together!)'],
+        ['E. Davidsson', 'The Frog (from The Gift of Music)'],
+        ['Gillock', 'Swinging Beat'],
+        ['D. Hidy', 'Dotty\'s Nightmare'],
+        ['A. Mathews', 'Woodland Folk Song primo part'],
+        ['Trad. Ewe (Ghanaian)', 'Tu tu Gbovi, arr. Chapman Nyaho primo part'],
+        ['J. Sebba', 'Latin Laughter primo part'],
+        ['B. Snow', 'Jazzy Dragon (from Animal Jazz)'],
+        ['Chee-Hwa Tan', 'At the Seaside (from A Child\'s Garden of Verses)'],
+        ['Trad. Jamaican', 'Mango Walk, arr. Cornick'],
+      ]
+    }
+  },
+
+  g2: {
+    label: 'Grade 2',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['Anon.', 'Corranto (from Fitzwilliam Virginal Book)'],
+        ['Carse', 'Rustic Dance (No. 7 from Progressive Duets, Book 1) primo part'],
+        ['Goedicke', 'Etude in A minor, Op. 36 No. 13'],
+        ['Türk', 'Allegro in C, arr. Hall'],
+        ['Haydn', 'Rondino (Theme from Cello Concerto in D), arr. Agay primo part'],
+        ['Kabalevsky', 'Galop / Hopping (No. 18 from 24 Little Pieces, Op. 39)'],
+        ['attrib. L. Mozart', 'Bourlesq (from The Wolfgang Notebook) with first repeat'],
+        ['Mozart', 'Minuet in D, K. 7'],
+        ['Proszynski', 'Kowalczyki (from Easy Pieces)'],
+        ['Purcell', 'Air in D minor, Z. T676'],
+        ['Chevalier de Saint-Georges', 'Rondo (from Quartet for Harpsichord and Strings), arr. Talbot-Howard'],
+        ['Telemann', 'Gavotte'],
+        ['D. Thomson', 'Haggis Hunt (from Celtic Piano Music)'],
+      ]
+    },
+    B: {
+      style: 'Romantic &amp; 20th Century',
+      pieces: [
+        ['Bartók', 'Sorrow (No. 7 from For Children, Vol. 2)'],
+        ['Bob Dylan', 'Make You Feel My Love, arr. Baker'],
+        ['Sheeran, Roman, McDaid, Swift &amp; Gibson', 'The Joker and the Queen, arr. Önaç'],
+        ['El-Dabh', 'Soufiane (from Mekta\' in the Art of Kita\', Book 2)'],
+        ['Grechaninov', 'Farewell (No. 4 from Children\'s Album, Op. 98)'],
+        ['H. Hammond', 'Raindrop Reflections primo part'],
+        ['Ravel', 'Pavane de la belle au bois dormant (from Ma mère l\'oye) secondo part'],
+        ['Spindler', 'Waltz in A minor'],
+        ['Steibelt', 'Adagio in A minor (from Sonatina in C)'],
+        ['Chee-Hwa Tan', 'The Moon (from A Child\'s Garden of Verses)'],
+        ['Tchaikovsky', 'Waltz (from The Sleeping Beauty), arr. J. &amp; A. Bullard'],
+        ['S. Watts', 'Postcard from Paris'],
+        ['J. Williams', 'Hedwig\'s Theme (from Harry Potter), arr. Harris'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['B. Crosland', 'In My Spot'],
+        ['S. Konecsni', 'Dinosaur, Don\'t!'],
+        ['Ludovico Einaudi', 'The Snow Prelude No. 3'],
+        ['Garscia', 'Brigands\' Dance (from Let\'s Play a Piano Duet, Op. 37) primo part'],
+        ['M. Gasieniec', 'Kukutka I'],
+        ['Grieg', 'Norwegian Dance No. 2, arr. Hall primo part'],
+        ['Nikki Iles', 'The Cheshire Cat (from Piano Tales for Alice)'],
+        ['Nikki Iles', 'Sweet Pea primo part'],
+        ['Robinson &amp; White', 'My Girl, arr. Iles'],
+        ['Sculthorpe', 'Singing Sun (No. 6 from A Little Book of Hours)'],
+        ['Seiber', 'Tango II (Habanera) (from Leichte Tanze I)'],
+        ['G. Swayne', 'Whistling Tune'],
+        ['P. Wedgwood', 'Champagne Rag (from Easy Jazzin\' About Piano)'],
+      ]
+    }
+  },
+
+  g3: {
+    label: 'Grade 3',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['Andrée', 'Allegro moderato (No. 3 from Fem smärretonbilder, Op. 7)'],
+        ['S. Baker', 'Shadows (from Night Time Impressions)'],
+        ['Haslinger', '2nd movt from Sonatina in C'],
+        ['A. Hedges', 'Hornpipe Rondo (primo part)'],
+        ['I. Holst', 'Toccata, arr. Hall'],
+        ['L. Mozart', 'Angloise (from Notebook for Wolfgang)'],
+        ['Mozart', 'Allegro in B♭, K. 3'],
+        ['V. Neugasimov', 'Moody Gigue (from Piano Sketches, Book 1)'],
+        ['Prokofiev', 'Gavotte (from Classical Symphony, Op. 25), arr. Agay (primo part)'],
+        ['Reinecke', 'Vivace (4th movt from Sonatina in A minor, Op. 136 No. 4)'],
+        ['Schumann', 'Wilder Reiter / The Wild Horseman (No. 8 from Album für die Jugend, Op. 68)'],
+        ['Seiber', 'Jazz Etudiette (from Easy Dances II)'],
+        ['Weber', 'Scherzo'],
+      ]
+    },
+    B: {
+      style: 'Romantic &amp; 20th Century',
+      pieces: [
+        ['D. Alexander', 'Autumn Serenade (primo part)'],
+        ['J. S. Bach', 'Arioso, arr. Agay (primo part)'],
+        ['Bartók', 'Andante (No. 2 from For Children, Vol. 2)'],
+        ['J. &amp; A. Bullard', 'Thames Sunrise'],
+        ['W. Carroll', 'Spraymist (No. 3 from In Southern Seas)'],
+        ['Gurlitt', 'Song, Op. 172 No. 1'],
+        ['P. Harris', 'Indigo (No. 6 from Rainbow)'],
+        ['H. Hofmann', 'Melodie (No. 5 from Skizzen, Op. 77)'],
+        ['Mendelssohn', 'Romance'],
+        ['Joni Mitchell', 'Both Sides Now, arr. White'],
+        ['Tchaikovsky', 'Chanson italienne (No. 15 from Album pour enfants, Op. 39)'],
+        ['Trad. Irish', 'She Moved Through the Fair, arr. Hall'],
+        ['Trad. Japanese', 'Sakura, arr. Goto'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['Agay', 'Little Rhapsody on Hungarian Themes (primo part)'],
+        ['M. Bober &amp; G. Goranson', 'Rushing River'],
+        ['V. Capers', 'Ella Scats the Little Lamb (No. 1 from Portraits in Jazz)'],
+        ['Carse', 'Csardas (primo part)'],
+        ['M. Cornick', 'The Waltz of the Elephants (from Clever Cat Goes on Safari)'],
+        ['M. Goddard', 'Locked On Latin (primo part)'],
+        ['H. Hofmann', 'Waldvöglein (No. 15 from Skizzen, Op. 77)'],
+        ['John &amp; Rice', 'Can You Feel the Love Tonight (from The Lion King), arr. N. &amp; R. Faber'],
+        ['Mancini &amp; Mercer', 'Moon River (from Breakfast at Tiffany\'s), arr. Miller'],
+        ['Billie Eilish &amp; Finneas O\'Connell', 'No Time to Die, arr. Önaç'],
+        ['J. Scofield', 'I\'ll Take Les, arr. Iles'],
+        ['K. Tanaka', 'Northern Lights'],
+        ['J. Welburn', 'Groovin\' Grasshopper (from Adventures and Accolades)'],
+      ]
+    }
+  },
+
+  g4: {
+    label: 'Grade 4',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['Alcock', 'Gavot (3rd movt from Suite No. 2 in B♭)'],
+        ['Beethoven', 'Allegro assai (1st movt from Sonatina in F, Anh. 5 No. 2)'],
+        ['G. Berg', 'Allegro (1st movt from Sonatina in C, Op. 3 No. 7)'],
+        ['J. F. F. Burgmüller', 'Ballade, Op. 100 No. 15'],
+        ['Buxtehude', 'Saraband (from Suite in E minor, BuxWV 236)'],
+        ['Dring', 'Scherzando (from 12 Pieces in the Form of Studies)'],
+        ['Gambarini', 'Grazioso (from Sonata No. 2)'],
+        ['Gurlitt', 'Allegretto scherzando (3rd movt from Sonatina in C, Op. 188 No. 4)'],
+        ['Haydn', 'Allegro scherzando in F'],
+        ['S. Heller', 'Study in A minor, Op. 45 No. 2'],
+        ['Joe Hisaishi', 'A Town with an Ocean View (from Kiki\'s Delivery Service)'],
+        ['L. Köhler', 'Sledging Party (from Kinderfreund, Op. 243)'],
+        ['Mozart', 'Rondo in F, K. 15hh'],
+      ]
+    },
+    B: {
+      style: 'Romantic &amp; 20th Century',
+      pieces: [
+        ['Adele Adkins &amp; G. Kurstin', 'Easy on Me, arr. Dunlop'],
+        ['J. Stephens &amp; T. Gad', 'All of Me, arr. Harnett'],
+        ['C. P. E. Bach', 'Andante, arr. Lang Lang'],
+        ['W. Carroll', 'Sunrise (No. 7 from River and Rainbow)'],
+        ['David, Hoffman &amp; Livingston', 'A Dream is a Wish Your Heart Makes (from Cinderella), arr. Keveren'],
+        ['Granados', 'Dedicatoria (No. 1 from Cuentos de las juventud, Op. 1)'],
+        ['H. Hammond', 'Once Upon a Frozen Winter (from Ballads Without Words)'],
+        ['Hummel', 'Romance in G, Op. 52 No. 4'],
+        ['Khachaturian', 'A Little Song / Andantino (No. 1 from Pictures of Childhood)'],
+        ['Liszt', 'La cloche sonne, S. 238'],
+        ['Mendelssohn', 'Andante (2nd movt from Violin Concerto in E minor, Op. 64), arr. Scott-Burt'],
+        ['Trad. Malay', 'Voyage of the Sampan, arr. Siagian'],
+        ['Vaughan Williams', 'Valse lente (from Six Teaching Pieces)'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['Andersson, Ulvaeus &amp; Anderson', 'Dancing Queen (ABBA), arr. Önaç'],
+        ['Grieg', 'In the Hall of the Mountain King (from Peer Gynt, Op. 46), arr. White'],
+        ['Kabalevsky', 'Toccatina (No. 12 from 30 Children\'s Pieces, Op. 27)'],
+        ['Maikapar', 'At the Smithy, Op. 8 No. 5'],
+        ['A. Mathews', 'Buried Rubies (No. 8 from Treasure Trove)'],
+        ['M. Mier', 'Worrisome Blues (from Jazz, Rags &amp; Blues, Book 3)'],
+        ['Arvo Pärt', 'Für Anna Maria'],
+        ['F. Price', 'The Goblin and the Mosquito'],
+        ['Prokofiev', 'Marche (No. 10 from Musiques d\'enfants, Op. 65)'],
+        ['V. Stoyanov', 'Bulgarian Peasant Dance'],
+        ['Trad.', 'Shenandoah, arr. Bennett'],
+        ['Waller, Razaf &amp; H. Brooks', 'Ain\'t Misbehavin\', arr. Iles'],
+        ['J. Williams', 'Star Wars (Main Theme), arr. Turner'],
+      ]
+    }
+  },
+
+  g5: {
+    label: 'Grade 5',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['J. S. Bach', 'Invention No. 8 in F, BWV 779'],
+        ['Beethoven', 'Bagatelle in G minor, Op. 119 No. 1'],
+        ['Chaminade', 'Gavotte (No. 5 from Album des enfants, Op. 123)'],
+        ['J. H. Fiocco', 'Andante (from Pièces de clavecin, Op. 1)'],
+        ['Gade', 'Ringeltanz / Boys\' Merry-go-round (No. 2 from Children\'s Christmas, Op. 36)'],
+        ['Haydn', 'Allegro (1st movt from Sonata in G, Hob. XVI:G1)'],
+        ['S. Heller', 'Study in E minor (No. 7 from 30 Progressive Studies, Op. 46)'],
+        ['Hummel', 'Allegro in C (No. 2 from Six pièces très faciles, Op. 52)'],
+        ['J. L. Krebs', 'Toccata in E♭'],
+        ['Kuhlau', 'Allegro con spirito (1st movt from Sonatina in C, Op. 55 No. 3)'],
+        ['Leo', 'Toccata No. 3'],
+        ['Mozart', 'Theme, Variation 1 and Variation 5 (from K. 265, 12 Variations on \'Ah vous dirai-je, maman\')'],
+        ['J. Sifford', 'Rondo Scherzando'],
+      ]
+    },
+    B: {
+      style: 'Romantic &amp; 20th Century',
+      pieces: [
+        ['R. R. Bennett', 'Little Elegy'],
+        ['Gillock', 'Arabesque Sentimentale'],
+        ['Glière', 'Evening (No. 5 from 8 Easy Pieces, Op. 43)'],
+        ['Granados', 'La huérfana (No. 9 from Cuentos de las juventud, Op. 1)'],
+        ['S. Heller', 'Study in E minor, Op. 47 No. 15'],
+        ['T. Kirchner', 'Andante (3rd movt from Sonatina in B♭, Op. 70 No. 5)'],
+        ['P. Lane', 'A Walk in the Park (No. 2 from Three Little Bites at the Big Apple)'],
+        ['Massenet', 'Mélodie (No. 5 from 10 Pièces de genre, Op. 10)'],
+        ['Mompou', 'La barca (from Impresiones íntimas)'],
+        ['Schulski', 'Prelude in C minor, Op. 8 No. 1'],
+        ['Schumann', 'Von fremden Ländern und Menschen (No. 1 from Kinderscenen, Op. 15)'],
+        ['Trad. Korean', 'Arirang, arr. Bullard'],
+        ['P. Wedgwood', 'Beauly Abbey (from Up-Grade! Piano Grades 4–5)'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['Agay', 'Blue Waltz'],
+        ['Alwyn', 'The Sea is Angry'],
+        ['Arlen', 'Stormy Weather, arr. Iles'],
+        ['S. Bareilles', 'King of Anything, arr. Baker'],
+        ['Alicia Keys', 'If I Ain\'t Got You, arr. Önaç'],
+        ['Bartók', 'Winter Solstice Song (No. 38 from For Children, Vol. 1)'],
+        ['L. Berwin', 'The Ghost Train (from All the Fun of the Fair)'],
+        ['V. Borisova-Ollas', 'Silent Island'],
+        ['Ludovico Einaudi', 'Elegy for the Arctic'],
+        ['M. Mier', 'Tuxedo Jazz (from Jazz, Rags &amp; Blues, Book 4)'],
+        ['Pinto', 'March, Little Soldier! (No. 3 from Scenas infantis)'],
+        ['C. Rollin', 'Love Theme (from Lyric Moments, Book 2)'],
+        ['Starer', 'Bright Orange (from Sketches in Colour, Set One)'],
+        ['A. B. Vindu', 'Lullaby (from Suite for Piano)'],
+      ]
+    }
+  },
+
+  g6: {
+    label: 'Grade 6',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['C. P. E. Bach', 'Solfeggietto in C minor, Wq. 117/2'],
+        ['J. S. Bach', 'Invention No. 6 in E, BWV 777'],
+        ['J. F. F. Burgmüller', 'Velocity, Op. 109 No. 10'],
+        ['Cimarosa', 'Allegro (1st movt from Sonata No. 6 in G)'],
+        ['Handel', 'Fantasia in A'],
+        ['Haydn', 'Finale: Allegro molto (4th movt from Sonata in G, Hob. XVI:6)'],
+        ['Hummel', 'Rondo in C, Op. 52 No. 6'],
+        ['Knowles', 'Paine Village Dance (No. 5 from In the Country, Op. 26)'],
+        ['Lindeman', 'Allegretto (from Character Pieces)'],
+        ['B. Marcello', 'Presto (2nd movt from Sonata in G)'],
+        ['D. Scarlatti', 'Sonata in A, Kp. 208, L. 238'],
+        ['Schubert', 'Moment musical in F minor (No. 3 from Moments musicaux, D. 780)'],
+        ['Telemann', 'Allegro (1st movt from Fantasia No. 1 in D, TWV 33:1)'],
+      ]
+    },
+    B: {
+      style: 'Romantic &amp; 20th Century',
+      pieces: [
+        ['Albéniz', 'Tango (No. 2 from España, Op. 165)'],
+        ['Mel Bonis', 'Interlude (from Interlude et Valse lente, Op. 38)'],
+        ['Y. Bowen', 'A Pastel'],
+        ['Chopin', 'Waltz in A minor, KK. IVb No. 11'],
+        ['Dello Joio', 'Prayer of the Matador (No. 2 from Lyric Pieces for the Young)'],
+        ['Glière', 'Prelude in D minor (No. 1 from 8 Easy Pieces, Op. 43)'],
+        ['Guastavino', 'Cantilena No. 1 "Santa Fe para Ilorar" (from 10 Cantilenas Argentinas)'],
+        ['C. Hartmann', 'Nocturne'],
+        ['S. Hough', 'Little Lullaby (4th movt from Suite R-B)'],
+        ['Howells', 'There Was a Most Beautiful Lady (No. 3 from Country Pageant)'],
+        ['Khachaturian', 'Legend (No. 6 from Pictures of Childhood)'],
+        ['Schumann', 'Einsame Blumen (No. 3 from Waldscenen, Op. 82)'],
+        ['S. Wedgwood', 'Empty Rooms (from Sam Wedgwood\'s Project, Book 1)'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['L. Bernstein', 'Cool (from West Side Story), arr. Klose'],
+        ['L. Bernstein', 'For Stephen Sondheim (No. 3 from 13 Anniversaries)'],
+        ['V. Capers', 'Mr "Satchmo" (from Portraits in Jazz)'],
+        ['Casella', 'Galop Final (No. 11 from 11 Children\'s Pieces, Op. 35)'],
+        ['B. Crosland', 'View from a Window (No. 12 from Cool Beans!, Vol. 1)'],
+        ['P. Harvey', 'Rumba Toccata'],
+        ['Nikki Iles', 'East Coast Blues'],
+        ['Mercury', 'Somebody to Love, arr. Keveren'],
+        ['S. Montague', 'Tsunami'],
+        ['Prokofiev', 'Cortège de sauterelles (No. 7 from Musiques d\'enfants, Op. 65)'],
+        ['N. Okoye', 'Dancing Barefoot in the Rain (from African Sketches)'],
+        ['P. Ruders', 'Shooting Stars'],
+        ['B. Taylor', 'I Wish I Knew How It Would Feel to Be Free, arr. Churchill'],
+      ]
+    }
+  },
+
+  g7: {
+    label: 'Grade 7',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['C. P. E. Bach', 'Allegro di molto (1st movt from Sonata in F minor, Wq. 63/6)'],
+        ['J. S. Bach', 'Gigue (7th movt from French Suite No. 3 in B minor, BWV 814)'],
+        ['Beethoven', 'Menuetto and Trio (3rd movt from Sonata in D, Op. 10 No. 3)'],
+        ['Grieg', 'Rigaudon (5th movt from Holberg Suite, Op. 40)'],
+        ['Handel', 'Allemande and Courante (2nd and 3rd movts from Suite in D minor, HWV 437)'],
+        ['Haydn', 'Moderato (1st movt from Sonata in E, Hob. XVI:31)'],
+        ['Kuhlau', 'Allegro con spirito (1st movt from Sonatina in A, Op. 60 No. 2)'],
+        ['Mozart', 'Gigue in G, K. 574'],
+        ['Paradies', 'Allegro (2nd movt from Sonata No. 6 in A)'],
+        ['Rameau', 'Les sauvages (from Pièces de clavecin)'],
+        ['D. Scarlatti', 'Sonata in E, Kp. 380, L. 23'],
+        ['C. Schumann', 'Scherzo (No. 4 from Quatre pièces fugitives, Op. 15)'],
+        ['Turina', 'El mercado (No. 5 from Miniaturas, Op. 52)'],
+      ]
+    },
+    B: {
+      style: 'Romantic &amp; 20th Century',
+      pieces: [
+        ['A. Bullard', 'Prelude No. 9 (from 12 or 13 Preludes for Piano Solo, Set One)'],
+        ['Debussy', 'The Little Shepherd (No. 5 from Children\'s Corner)'],
+        ['Gorres', 'Children\'s Song (No. 11 from Bunte Reihen, Op. 6)'],
+        ['Hensel', 'Melodie, Op. 4 No. 2'],
+        ['Ilyinsky', 'Berceuse (No. 7 from Noure et Anitra, Op. 13)'],
+        ['Liszt', 'Consolation No. 5 in E (from Consolations, S. 172)'],
+        ['Lyadov', 'Mazurka in F minor (No. 3 from Trois morceaux, Op. 57)'],
+        ['Mendelssohn', 'Song without Words, Op. 19 No. 1'],
+        ['A. Richardson', 'Lento moderato (2nd movt from Sonatina in F, Op. 27)'],
+        ['Rubinstein', 'Romance (No. 1 from Soirées à Saint-Pétersbourg, Op. 44)'],
+        ['O. Russell', 'Jamaican Dance No. 2 (from Three Jamaican Dances)'],
+        ['Schumann', 'Kind im Einschlummern (No. 12 from Kinderscenen, Op. 15)'],
+        ['P. E. Wolf', 'Nostalgia (from Jazz Preludes Wolf-temperiertes Klavier 2)'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['Bartók', 'Bagpipers: Allegretto (1st movt from Sonatina)'],
+        ['Chen Yi', 'Bamboo Dance II'],
+        ['Ginastera', 'Tribute to Roberto Garcia Morillo (No. 6 from 12 American Preludes, Op. 12)'],
+        ['Grieg', 'Butterfly (No. 1 from Lyric Pieces, Book 3, Op. 43)'],
+        ['Grovlez', 'Chanson du chasseur (No. 4 from L\'Almanach aux images)'],
+        ['B. Howard', 'Fly Me to the Moon, arr. Iles'],
+        ['Kern', 'Smoke Gets in Your Eyes (from Roberta), arr. Evans'],
+        ['F. Mulsant', 'Prelude No. 14 (from 24 Préludes pour piano, Op. 38)'],
+        ['C. Norton', 'Pop Bossa (No. 5 from Latin Preludes 2)'],
+        ['Piazzolla', 'Milonga del angel'],
+        ['Uzoigwe', 'Nigerian Dance No. 1 (from Four Nigerian Dances)'],
+        ['Villoldo', 'El Choclo, arr. Korn'],
+        ['Carl Vine', 'Spartacus'],
+      ]
+    }
+  },
+
+  g8: {
+    label: 'Grade 8',
+    A: {
+      style: 'Baroque &amp; Classical',
+      pieces: [
+        ['J. S. Bach', 'Prelude and Fugue in G, BWV 884'],
+        ['J. S. Bach', 'Sarabande and Rondeaux (4th and 5th movts from Partita No. 2 in C minor, BWV 826)'],
+        ['Beethoven', 'Allegro (1st movt from Sonata in E, Op. 14 No. 1)'],
+        ['Handel', 'Prelude and Allegro / Fuga (1st and 2nd movts from Suite No. 8 in F minor, HWV 433)'],
+        ['Haydn', 'Allegro con brio (1st movt from Sonata in D, Hob. XVI:37)'],
+        ['Haydn', 'Allegro (1st movt from Sonata in E♭, Hob. XVI:49)'],
+        ['S. Hough', 'Toccatina (5th movt from Suite R-B)'],
+        ['Martínez', 'Allegro / Moderato (1st movt from Sonata in A)'],
+        ['Moszkowski', 'Scherzino, Op. 77 No. 2'],
+        ['Mozart', 'Andante grazioso and Vars. 1–6 (1st movt from Sonata in A, K. 331)'],
+        ['Rameau', 'Les cyclopes (from Pièces de clavecin)'],
+        ['D. Scarlatti', 'Sonata in D, Kp. 443, L. 418'],
+        ['C. Schumann', 'Un poco agitato (No. 2 from Quatre pièces fugitives, Op. 15)'],
+      ]
+    },
+    B: {
+      style: 'Romantic &amp; 20th Century',
+      pieces: [
+        ['Arensky', 'Nocturne in D (No. 3 from 24 Characteristic Pieces, Op. 36)'],
+        ['A. Beach', 'A Hermit Thrush at Morn, Op. 92 No. 2'],
+        ['Beethoven', 'Adagio cantabile (2nd movt from Sonata in C minor "Pathétique", Op. 13)'],
+        ['Chopin', 'Mazurka in A minor, Op. 17 No. 4'],
+        ['Hensel', 'Andante cantabile in D minor'],
+        ['Ireland', 'Columbine'],
+        ['Janáček', 'Andante (No. 1 from In the Mists)'],
+        ['Rachmaninoff', 'Moment musical in D minor, Op. 16 No. 5'],
+        ['Schubert', 'Impromptu in A minor (No. 2 from Four Impromptus, Op. 142, D. 935)'],
+        ['Schumann', 'Romanze in F♯ (No. 2 from Drei Romanzen, Op. 28)'],
+        ['Tailleferre', 'Impromptu'],
+        ['Tchaikovsky', 'Janvier "Au coin du feu" (No. 1 from The Seasons, Op. 37bis)'],
+        ['P. E. Wolf', 'Hiding Rainbow (from Jazz Preludes Wolf-temperiertes Klavier 2)'],
+      ]
+    },
+    C: {
+      style: 'Contemporary &amp; Popular',
+      pieces: [
+        ['E. Alberga', 'If the Silver Bird Could Speak'],
+        ['Bartók', 'Dance in Bulgarian Rhythm No. 6 (No. 153 from Mikrokosmos)'],
+        ['Chaminade', 'Pierrette (Air de Ballet), Op. 41'],
+        ['Chen Peixun', 'Thunder in Drought Season'],
+        ['Debussy', 'Rêverie'],
+        ['T. Garland', 'Eco Warrior'],
+        ['Zoe Rahman', 'Go with the Flow'],
+        ['Khachaturian', 'Toccata'],
+        ['U. Korn', 'Caballos Españoles'],
+        ['C. McDowall', 'Vespers in Venice (from Four Piano Solos)'],
+        ['McHugh', 'On the Sunny Side of the Street, arr. Iles'],
+        ['Trad. Irish', 'Danny Boy, arr. Iles'],
+        ['Villa-Lobos', 'O polichinelo (from A prole do bebê no. 1)'],
+      ]
+    }
+  }
+};
+
+// Render all panels
+const panelsEl = document.getElementById('gradePanels');
+const listLabels = {
+  A: 'List A',
+  B: 'List B',
+  C: 'List C'
+};
+
+Object.entries(repertoire).forEach(([key, gradeData]) => {
+  const panel = document.createElement('div');
+  panel.className = 'grade-panel' + (key === 'initial' ? ' active' : '');
+  panel.id = 'panel-' + key;
+
+  let html = `<h2 class="grade-heading">${gradeData.label}</h2><div class="lists-grid">`;
+
+  ['A', 'B', 'C'].forEach(list => {
+    const listData = gradeData[list];
+    html += `
+      <div class="list-card">
+        <div class="list-header">
+          <strong>${listLabels[list]}</strong>
+          <span>${listData.style}</span>
+        </div>
+        <div class="list-body">
+          <p class="official-note">Pieces 1–3: see official ABRSM Exam Pieces book</p>
+          ${listData.pieces.map(([composer, title]) => `
+            <div class="piece">
+              <span class="composer">${composer}</span>
+              <span class="piece-title"> — ${title}</span>
+            </div>`).join('')}
+        </div>
+      </div>`;
+  });
+
+  html += '</div>';
+  panel.innerHTML = html;
+  panelsEl.appendChild(panel);
+});
+
+// Tab switching
+document.getElementById('gradeTabs').addEventListener('click', e => {
+  if (!e.target.matches('.grade-tab')) return;
+  const grade = e.target.dataset.grade;
+  document.querySelectorAll('.grade-tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.grade-panel').forEach(p => p.classList.remove('active'));
+  e.target.classList.add('active');
+  document.getElementById('panel-' + grade).classList.add('active');
+});
+</script>
+
+</body>
+</html>
